@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.137" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Menu Management" name="Add first menu item" time="0.015">
+<system-out><![CDATA[
+Given I setup the test data.................................................passed
+And I setup more test data..................................................passed
+Given I have a menu item with name "Cucumber Sandwich" and price 20.........passed
+When I add that menu item...................................................passed
+Then Menu Item with name "Cucumber Sandwich" should be added................passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu Management" name="Add second menu item" time="0.002">
+<system-out><![CDATA[
+Given I setup the test data.................................................passed
+And I setup more test data..................................................passed
+Given I have a menu item with name "Chicken Sandwich" and price 30..........passed
+When I add that menu item...................................................passed
+Then Menu Item with name "Chicken Sandwich" should be added.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu Management" name="Add third menu item" time="0.002">
+<system-out><![CDATA[
+Given I setup the test data.................................................passed
+And I setup more test data..................................................passed
+Given I have a menu item with name "Beef Sandwich" and price 34.............passed
+When I add that menu item...................................................passed
+Then Menu Item with name "Beef Sandwich" should be added....................passed
+]]></system-out>
+</testcase>
+</testsuite>
